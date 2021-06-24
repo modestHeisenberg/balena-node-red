@@ -20,5 +20,7 @@ services:
     ports:
       - 80:80
     environment:
+      USERNAME: admin
+      PASSWORD: "$2b$08$0OxDdoEKerJ.QV4wNKB90uGU/vO75xlcMa/9BkMzeIovVtCe8C9ca"
       PORT: 1880
       TIMEZONE: "America/Detroit"
